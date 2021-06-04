@@ -1,6 +1,6 @@
 KOKKOS_PATH = ../../../..
 KOKKOS_SRC_PATH = ${KOKKOS_PATH}
-SRC = $(wildcard ${KOKKOS_SRC_PATH}/example/tutorial/Hierarchical_Parallelism/nbody/*.cpp)
+SRC = $(wildcard *.cpp)
 vpath %.cpp $(sort $(dir $(SRC)))
 
 default: build
